@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="20dp">
+
+    <ImageView
+        android:id="@+id/tvGambarMakanan"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_launcher_foreground"/>
+
+    <TextView
+        android:id="@+id/tvNamaMakanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ini untuk judulnya"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:padding="8dp"/>
+
+    <TextView
+        android:id="@+id/tvHargaMakanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ini untuk harganya"
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray"
+        android:paddingLeft="8dp"/>
+</LinearLayout>
